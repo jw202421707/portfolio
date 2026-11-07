@@ -56,6 +56,29 @@
 </script>
 {{- end }}
 
+<script>
+    (() => {
+        const menu = document.getElementById("navbarContent");
+        const toggler = document.querySelector('[data-bs-target="#navbarContent"]');
+        if (!menu || !toggler || typeof bootstrap === "undefined") return;
+
+        const collapse = bootstrap.Collapse.getOrCreateInstance(menu, { toggle: false });
+        menu.querySelectorAll('a.nav-link[href*="#"]').forEach((link) => {
+            link.addEventListener("click", () => {
+                if (menu.classList.contains("show")) collapse.hide();
+            });
+        });
+
+        menu.addEventListener("keydown", (event) => {
+            if (event.key === "Escape" && menu.classList.contains("show")) {
+                event.preventDefault();
+                collapse.hide();
+                toggler.focus();
+            }
+        });
+    })();
+</script>
+
 {{ if not (.Site.Params.navbar.disableSearch | default false) }}
     <script>
       // Set the correct path to index.json for the search functionality
