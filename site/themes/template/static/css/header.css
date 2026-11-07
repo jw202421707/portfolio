@@ -152,3 +152,12 @@ li > .dropdown-toggle:focus{
 #search-results .card a:hover {
     color: var(--primary-color) !important;
 }
+
+@media (max-width: 991.98px) {
+    #navbarContent .nav-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+    }
+}
