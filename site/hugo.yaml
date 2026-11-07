@@ -585,12 +585,12 @@ params:
   # About
   about:
     enable: true
-    title: "About Me"
+    title: "소개"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+      저는 컴퓨터인공지능학부에 재학 중인 이지우입니다. 인공지능이 이미지와 영상 정보를 이해하고 새로운 결과를 만들어 내는 과정, 그리고 그 기술을 실제 문제 해결에 적용할 수 있다는 점에 관심을 가지고 있습니다.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      MACS LAB의 학부 연구 활동을 통해 논문을 읽으며 모델의 구조와 연구 목적을 공부하고 있습니다. 또한 해커톤과 개발 프로젝트에 참여하며 학습한 기술을 실제 결과물로 구현하는 경험을 쌓고 있습니다.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
