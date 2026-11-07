@@ -639,24 +639,10 @@ params:
   # Achievements
   achievements:
     enable: true
-    # title: "Custom Name"
+    title: "성과"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievement.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievement.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievement.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: "제주 환경보전 해커톤 본선 진출"
+        content: "2026년 10월, 서울대학교 빅데이터 융합 사업단이 주관한 제주 환경보전 해커톤 본선에 진출했습니다. 팀원과 함께 여행자의 일정·위치·관심사를 바탕으로 환경보전 활동을 추천하는 AI 기반 관광 서비스를 기획하고 개발했습니다."
 
   # projects
   projects:
