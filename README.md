@@ -38,7 +38,7 @@ hugo server --config hugo.yaml,pages.json --theme template --themesDir themes
 저장소 루트에서 GitHub Actions와 같은 준비·빌드 스크립트를 실행합니다.
 
 ```bash
-cd portfolio
+cd ..
 python .github/pages_build.py --dependencies
 python .github/pages_build.py --build
 ```
