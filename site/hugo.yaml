@@ -113,7 +113,8 @@ params:
   about:
     enable: true
     title: "소개"
-    image: "/images/me.png"
+    image: "/images/jiwoo-avatar.png"
+    imageAlt: "이지우 소개 아바타"
     content: |-
       저는 컴퓨터인공지능학부에 재학 중인 이지우입니다. 인공지능이 이미지와 영상 정보를 이해하고 새로운 결과를 만들어 내는 과정, 그리고 그 기술을 실제 문제 해결에 적용할 수 있다는 점에 관심을 가지고 있습니다.
 
