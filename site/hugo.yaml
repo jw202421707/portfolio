@@ -647,52 +647,37 @@ params:
   # projects
   projects:
     enable: true
-    # title: "Custom Name"
+    title: "프로젝트"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+      - title: "제주도움 | AI 기반 제주 환경보전 관광 플랫폼"
+        content: |-
+          2026년 10월 · 본선 진출 · 완료
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+          서울대학교 빅데이터 융합 사업단이 주관한 제주 환경보전 해커톤에 참가하여, 여행자에게 맞춤형 환경보전 활동을 추천하는 플랫폼을 기획하고 개발했습니다.
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          관광객이 여행 일정과 관심사에 맞는 환경보전 활동을 쉽게 발견하고 참여할 수 있도록 하여, 관광과 지역 환경보전을 자연스럽게 연결하는 것을 목표로 했습니다.
+
+          서비스의 전체 구조와 핵심 기능을 설계하고, 실제 웹서비스 구현에 참여했습니다. 여행자의 일정·위치·관심사를 활용한 추천 흐름과 사용자 이용 과정을 구체화했습니다.
+
+          해커톤 본선에 진출했으며, 아이디어를 서비스 구조와 웹 화면으로 구체화하는 경험을 쌓았습니다.
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          - "AI 추천"
+          - "웹서비스"
+          - "환경보전"
+
+      - title: "웹툰 PSD 기반 영상 생성 AI Agent"
+        content: |-
+          2026년 7월 - 현재 · 진행 중
+
+          웹툰 PSD 파일의 계층별 레이어 정보를 활용하여 영상 콘텐츠 생성 과정을 지원하는 AI Agent를 연구하고 개발하고 있습니다.
+
+          인물과 배경 등이 분리된 PSD 레이어 정보를 활용해 영상 생성 과정에 필요한 이미지 처리를 자동화하고, 영상 생성 모델과 연결되는 시스템을 구현하는 것을 목표로 합니다.
+
+          PSD 레이어 구조와 계층 정보를 분석하고, 인물 레이어 추출 및 이미지 처리 기술을 탐구하고 있습니다. 또한 영상 생성 모델과 연결하는 시스템 구조와 AI Agent를 활용한 콘텐츠 생성 과정을 연구하고 있습니다.
+        badges:
+          - "AI Agent"
+          - "컴퓨터 비전"
+          - "영상 생성"
 
   #Contact
   contact:
