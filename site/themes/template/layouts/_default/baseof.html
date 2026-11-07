@@ -16,11 +16,13 @@
 </head>
 
 <body class="light">
+  <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
+
   <!-- javascripts -->
   <!-- <script src="/js/jquery-3.6.0.min.js"></script> -->
 
   {{- partial "sections/header.html" . -}}
-  <main id="main-content">
+  <main id="main-content" tabindex="-1">
     {{- block "main" . }}{{- end }}
   </main>
   {{- partial "sections/footer/index.html" . -}}
