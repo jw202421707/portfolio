@@ -141,6 +141,7 @@ params:
     title: "연구 및 활동"
     items:
       - company: "MACS LAB"
+        companyUrl: "https://jbnu.macs.or.kr/"
         jobs:
           - name: "학부연구생"
             date: "2026년 7월 - 현재"
