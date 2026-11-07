@@ -593,14 +593,13 @@ params:
       MACS LAB의 학부 연구 활동을 통해 논문을 읽으며 모델의 구조와 연구 목적을 공부하고 있습니다. 또한 해커톤과 개발 프로젝트에 참여하며 학습한 기술을 실제 결과물로 구현하는 경험을 쌓고 있습니다.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "현재 학습하고 활용하는 기술입니다."
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Python"
+        - "C++"
+        - "HTML · CSS · JavaScript"
+        - "Git · GitHub"
+        - "인공지능 · 컴퓨터 비전"
 
   # Experience
   experience:
