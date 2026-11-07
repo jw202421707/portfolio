@@ -624,45 +624,17 @@ params:
   # Education
   education:
     enable: true
-    # title: "Custom Name"
+    title: "학력"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "컴퓨터인공지능학부"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "전북대학교"
+        date: "2024년 3월 - 2028년 2월 졸업 예정"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          현재 3학년으로 재학 중입니다.
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          프로그래밍, 알고리즘, 데이터베이스, 운영체제, 인공지능 등 컴퓨터공학의 기초와 전공 지식을 학습하고 있습니다. 전공 수업에서 배운 내용을 연구 활동과 개발 프로젝트에 적용하며 문제 해결 역량을 쌓고 있습니다.
 
   # Achievements
   achievements:
