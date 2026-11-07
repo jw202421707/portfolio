@@ -92,7 +92,8 @@ params:
     title: "컴퓨터인공지능학부에 재학 중인 이지우입니다."
     subtitle: "인공지능 연구와 서비스 개발을 경험하고 있습니다."
     content: "현재 인공지능 및 컴퓨터 비전 분야의 연구에 참여하며 관련 지식을 쌓고, 다양한 프로젝트와 서비스 개발을 통해 아이디어를 실제 결과물로 구현하는 경험을 하고 있습니다."
-    image: /images/hero.svg
+    image: /images/jiwoo-avatar.png
+    imageAlt: "이지우 프로필 아바타"
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
