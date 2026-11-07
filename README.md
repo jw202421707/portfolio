@@ -69,6 +69,17 @@ git push origin main
 
 Actions가 실패하면 실패한 단계의 로그를 확인하고 수정한 뒤 다시 커밋·push합니다. 공개 화면이 이전 버전이면 최신 Actions 실행이 완료되었는지 확인하고 브라우저를 새로고침합니다.
 
+## 테마와 제작 범위
+
+- 기반 테마: [Hugo Profile](https://github.com/gurusabarish/hugo-profile)
+- 원작자: [gurusabarish](https://github.com/gurusabarish)
+- 라이선스: MIT License
+- 테마의 원본 라이선스는 이 저장소의 [LICENSE](LICENSE) 파일에 유지했습니다.
+
+이 저장소의 한국어 자기소개, 학력, 연구·프로젝트 내용, 연락처, 아바타 적용, 접근성 개선 및 GitHub Pages 배포 설정은 이지우의 포트폴리오에 맞게 수정한 부분입니다.
+
+프로필 아바타는 OpenAI 이미지 생성 도구를 활용해 이 프로젝트용으로 제작했습니다.
+
 ## License
 
 Licensed under [MIT](LICENSE)
