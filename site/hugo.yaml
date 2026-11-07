@@ -571,20 +571,16 @@ params:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
-      enable: true
-      name: "Resume"
-      url: "#"
-      download: true
+      enable: false
+      name: ""
+      url: ""
+      download: false
       newPage: false
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-x-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: https://github.com/jw202421707
+      customIcons: []
 
   # About
   about:
