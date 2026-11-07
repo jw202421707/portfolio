@@ -33,7 +33,7 @@ params:
   mathjax: false
 
   # Whether the fade animations on the home page will be enabled
-  animate: true
+  animate: false
 
   theme:
     # disableThemeToggle: true
