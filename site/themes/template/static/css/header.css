@@ -4,6 +4,10 @@ header {
     top: 0;
 }
 
+section[id] {
+    scroll-margin-top: 6rem;
+}
+
 .skip-link {
     position: fixed;
     top: 0.75rem;
