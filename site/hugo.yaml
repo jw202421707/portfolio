@@ -238,7 +238,7 @@ params:
     socialShare: true
     readTime:
       enable: true
-      content: "min read"
+      content: "분 소요"
     scrollprogress:
       enable: true
     tags:
@@ -246,15 +246,15 @@ params:
 
   # For translations
   terms:
-    read: "Read"
-    toc: "Table Of Contents"
-    copyright: "All rights reserved"
-    emailText: "Check out this site"
+    read: "읽기"
+    toc: "목차"
+    copyright: "모든 권리 보유"
+    emailText: "이 사이트 공유하기"
 
   datesFormat:
-    article: "Jan 2, 2006"
-    articleList: "Jan 2, 2006"
-    articleRecent: "Jan 2, 2006"
+    article: "2006년 1월 2일"
+    articleList: "2006년 1월 2일"
+    articleRecent: "2006년 1월 2일"
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
