@@ -83,7 +83,7 @@ params:
       disableEducation: false
       disableProjects: false
       disableAchievements: false
-      disableContact: true
+      disableContact: false
 
   # Hero
   hero:
@@ -209,11 +209,16 @@ params:
 
   #Contact
   contact:
-    enable: false
-    # title: "Custom Name"
-    content: ""
-    btnName: ""
-    btnLink: ""
+    enable: true
+    title: "연락처"
+    content: |-
+      인공지능 연구와 개발 프로젝트를 진행 중입니다. 연락처는 아래를 참고해 주세요.
+
+      이메일: [jw202421707@gmail.com](mailto:jw202421707@gmail.com)
+
+      GitHub: [github.com/jw202421707](https://github.com/jw202421707)
+    email: "jw202421707@gmail.com"
+    btnName: "이메일 보내기"
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
