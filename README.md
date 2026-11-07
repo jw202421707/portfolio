@@ -1,31 +1,11 @@
-# Hugo Profile
+# 이지우 포트폴리오
 
-[![Twitter](https://img.shields.io/twitter/url?label=Tweet&style=social&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile) [![GitHub forks](https://img.shields.io/github/forks/gurusabarish/hugo-profile?style=plastic)](https://github.com/gurusabarish/hugo-profile/network) [![GitHub stars](https://img.shields.io/github/stars/gurusabarish/hugo-profile?style=plastic)](https://github.com/gurusabarish/hugo-profile/stargazers)
+인공지능 연구와 개발 프로젝트 경험을 소개하는 개인 포트폴리오입니다. Hugo Profile 테마를 기반으로 한국어 콘텐츠와 개인 프로젝트 정보를 구성했으며, GitHub Actions와 GitHub Pages를 사용해 배포합니다.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5c1dcb34-cada-4c80-82b7-cfdbdbd7c774/deploy-status)](https://app.netlify.com/sites/hugo-profile/deploys)
-![Latest Release](https://img.shields.io/github/v/release/gurusabarish/hugo-profile?include_prereleases)
-![Last Commit](https://img.shields.io/github/last-commit/gurusabarish/hugo-profile)
-![Open Issues](https://img.shields.io/github/issues/gurusabarish/hugo-profile?color=important)
-![Open Pull Requests](https://img.shields.io/github/issues-pr/gurusabarish/hugo-profile?color=yellowgreen)
-![License](https://img.shields.io/github/license/gurusabarish/hugo-profile)
-
-**Hugo Profile:** a high-performance, mobile-first Hugo theme for personal portfolios and blogs.
-
-- Example Site: [https://hugo-profile.netlify.app](https://hugo-profile.netlify.app)
-- Wiki Page: [https://github.com/gurusabarish/hugo-profile/wiki](https://github.com/gurusabarish/hugo-profile/wiki)
-- Full documentation (versioned in this repo): [wiki/Home.md](wiki/Home.md)
-
-**Features:**
-- Fully Responsive
-- Minimalist Design
-- SEO Friendly
-- Internationalization (i18n) Support
-- [Light/Dark/Auto Theme Color Configuration](https://github.com/gurusabarish/hugo-profile/wiki/Color-Customization)
-- Categories and Tags Support
-- Analytics Support ([Google Analytics](https://gohugo.io/templates/internal/#google-analytics))
-- Comment Support ([Disqus](https://gohugo.io/content-management/comments/))
-- Contact Form Integration ([FormSpree](https://formspree.io/))
-- Built with Bootstrap and Font Awesome
+- 공개 사이트: <https://jw202421707.github.io/portfolio/>
+- 저장소: <https://github.com/jw202421707/portfolio>
+- 제작자: 이지우
+- 전공: 전북대학교 컴퓨터인공지능학부
 
 
 ## Requirements
