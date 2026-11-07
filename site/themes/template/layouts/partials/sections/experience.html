@@ -96,8 +96,9 @@
                                                                         data-bs-placement="top" 
                                                                         data-bs-original-title={{.tooltip}}
                                                                     {{ end }}
+                                                                    aria-label="{{ .tooltip | default .url }}"
                                                                 >
-                                                                    <img src="{{ .icon }}">
+                                                                    <img src="{{ .icon }}" alt="">
                                                                 </a>
                                                             </div>
                                                         {{ end }}

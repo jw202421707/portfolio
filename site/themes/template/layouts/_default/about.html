@@ -22,7 +22,7 @@
                 <div class="sticky-sidebar">
                     <aside class="aboutImg">
                         <div class="text-center">
-                            <img src="{{ .Params.image }}" class="mx-auto rounded" alt="">
+                            <img src="{{ .Params.image }}" class="mx-auto rounded" alt="{{ .Params.name | default .Title }}">
                         </div>
                         <h2 class="text-center pt-3">
                             {{ .Params.name }}
@@ -39,8 +39,8 @@
 
                                 {{ range .Params.socialLinks.customIcons }}
                                 <li class="list-inline-item text-center">
-                                    <a href="{{ .url }}" target="_blank" class="img-icon">
-                                        <img src="{{ .icon }}">
+                                    <a href="{{ .url }}" target="_blank" class="img-icon" aria-label="{{ .name | default .url }}">
+                                        <img src="{{ .icon }}" alt="">
                                     </a>
                                 </li>
                                 {{ end }}
