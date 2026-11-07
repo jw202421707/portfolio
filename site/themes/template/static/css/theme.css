@@ -36,6 +36,12 @@
 }
 
 button#theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+    padding: 0;
     border: none;
     font-size: 26px;
     margin: auto 4px;

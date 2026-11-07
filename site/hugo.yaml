@@ -109,6 +109,7 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
+          name: "GitHub 프로필"
           url: https://github.com/jw202421707
       customIcons: []
 

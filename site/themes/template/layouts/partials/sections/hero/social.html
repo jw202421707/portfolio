@@ -3,7 +3,7 @@
     <span class="px-1">
         <a href="{{ .url }}"
             {{ if not (hasPrefix .url "#") }} target="_blank" {{ end }}
-            class="btn social-icon"
+            class="btn social-icon" aria-label="{{ .name | default .icon }}"
         >
             <i class="{{ .icon }}"></i>
         </a>
