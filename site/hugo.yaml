@@ -272,6 +272,9 @@ params:
     toc: "목차"
     copyright: "모든 권리 보유"
     emailText: "이 사이트 공유하기"
+    pageNotFound: "페이지를 찾을 수 없습니다"
+    pageNotFoundDescription: "요청하신 주소가 없거나 이동되었습니다."
+    backToHome: "홈으로 돌아가기"
 
   datesFormat:
     article: "2006년 1월 2일"

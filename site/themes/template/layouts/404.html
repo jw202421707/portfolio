@@ -10,5 +10,7 @@
 <div class="container py-5 text-center">
     <img src="{{ (printf "%s404.png" (.Site.Params.staticPath | default "")) | relURL }}" alt='{{ .Site.Params.terms.pageNotFound | default (i18n "page_not_found") }}' class="img-fluid" width="40%">
     <h1>{{ .Site.Params.terms.pageNotFound | default (i18n "page_not_found") }}</h1>
+    <p>{{ .Site.Params.terms.pageNotFoundDescription }}</p>
+    <a class="btn" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Params.terms.backToHome }}</a>
 </div>
 {{ end }}
