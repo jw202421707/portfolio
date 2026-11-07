@@ -75,6 +75,14 @@ header .navbar.animate {
     line-height: 2rem;
     max-width: 100%;
 }
+
+#main-content .row > * {
+    min-width: 0;
+}
+
+#main-content :where(p, li, h1, h2, h3, h4, h5, h6, a) {
+    overflow-wrap: anywhere;
+}
 #hero .content.animate {
     animation: fade-left 1s ease-out;
 }
