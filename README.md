@@ -47,27 +47,29 @@ python .github/pages_build.py --build
 빌드 결과는 `public/` 폴더에 생성됩니다. GitHub Actions에서는 동일한 스크립트로 빌드한 뒤 GitHub Pages에 배포합니다.
 
 
-## Content Management
+## 콘텐츠 수정 위치
 
-You can now start customizing your site.
+- 자기소개·기술·학력·활동·프로젝트·연락처: `site/hugo.yaml`
+- 프로필 및 프로젝트 이미지: `site/static/images/`
+- 화면 구조와 접근성 속성: `site/themes/template/layouts/`
 
-To change the site title or homepage content, edit the `hugo.yaml` file in the root directory. This file also controls settings for showing or hiding sections of the site (e.g., About, Education).
-
-To create a new page, for example, in the Blog section, run:
+수정 후에는 저장소 루트에서 변경 내용을 확인하고 커밋한 뒤 `main` 브랜치로 올립니다.
 
 ```bash
-hugo new content content/blogs/my-post.md
+git status
+git add <수정한-파일>
+git commit -m "변경 내용을 설명하는 메시지"
+git push origin main
 ```
 
-This creates a new file in the `content/blogs/` folder with front matter that includes metadata like the date.
+## 배포 결과 확인
 
-Here are some useful resources for your reference:
+1. 저장소의 **Actions** 탭에서 `Deploy Hugo to GitHub Pages` 작업을 엽니다.
+2. 최신 `main` 커밋의 build와 deploy 작업이 모두 성공했는지 확인합니다.
+3. <https://jw202421707.github.io/portfolio/>에 접속해 최신 내용이 표시되는지 확인합니다.
+4. 메뉴, 외부 링크, 아바타와 모바일 화면에 깨진 부분이 없는지 다시 점검합니다.
 
-* [Hugo's Quick Start Guide](https://gohugo.io/getting-started/quick-start/) – About how to create a site, add content, and publish the site.
-
-* [Hugo Content Organization – Giraffe Academy](https://www.mikedane.com/static-site-generators/hugo/content-organization/)
-
-* [Wiki Page](https://github.com/gurusabarish/hugo-profile/wiki) – Tips specific to this theme.
+Actions가 실패하면 실패한 단계의 로그를 확인하고 수정한 뒤 다시 커밋·push합니다. 공개 화면이 이전 버전이면 최신 Actions 실행이 완료되었는지 확인하고 브라우저를 새로고침합니다.
 
 
 ## Internationalization (i18n)
