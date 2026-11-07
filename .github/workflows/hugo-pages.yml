@@ -47,6 +47,8 @@ jobs:
         env:
           SITE_BASE_URL: ${{ steps.pages.outputs.base_url }}
         run: python .github/pages_build.py --build
+      - name: Verify generated site integrity
+        run: node scripts/verify-site.mjs
       - uses: actions/upload-pages-artifact@v5
         with:
           path: public
