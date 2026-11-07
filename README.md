@@ -8,66 +8,43 @@
 - 전공: 전북대학교 컴퓨터인공지능학부
 
 
-## Requirements
+## 개발 환경
 
-- **Hugo version 0.87.0 or higher**   
-To check your installed version, run:   
-  ```bash
-  hugo version
-  ```
-  If Hugo is not installed, follow the [official installation guide](https://gohugo.io/installation/) for installation.
+- Git
+- Hugo Extended 0.143.0
+- Python 3.12
+- GitHub Actions: Ubuntu Latest
+- 자동 배포 환경: Node.js 24, Go 1.27.1, Dart Sass 1.105.0
 
+Hugo가 설치되어 있지 않다면 [Hugo 공식 설치 안내](https://gohugo.io/installation/)에서 운영체제에 맞는 Hugo Extended를 설치합니다. 설치 후 다음 명령으로 버전을 확인합니다.
 
-## Quick Start 
+```bash
+hugo version
+```
 
-1. Create a new Hugo site:  
+## 로컬 실행
 
-    ```bash
-    hugo new site my-site --format="yaml"
-    ```  
-    This uses a `hugo.yaml` configuration file instead of the default TOML format. 
+저장소를 복제하고 사이트 폴더에서 개발 서버를 실행합니다.
 
-2. Add a theme.  
+```bash
+git clone https://github.com/jw202421707/portfolio.git
+cd portfolio/site
+hugo server --config hugo.yaml,pages.json --theme template --themesDir themes
+```
 
-    Option A: Clone this repository inside your themes folder.  
-    This allows you to make lots of custom changes.
-    ```bash
-    cd my-site/themes
-    git clone https://github.com/gurusabarish/hugo-profile.git
-    ```
+터미널에 표시되는 주소로 접속합니다. 기본 설정에서는 보통 <http://localhost:1313/portfolio/>에서 확인할 수 있습니다.
 
-    Option B: Add as a Git submodule.  
-    This allows you to get automatic or structured updates from the original repository.
+## 배포용 빌드
 
-    ```bash
-    cd my-site
-    git init
-    git submodule add https://github.com/gurusabarish/hugo-profile.git themes/hugo-profile
-    ```    
+저장소 루트에서 GitHub Actions와 같은 준비·빌드 스크립트를 실행합니다.
 
-3. Copy the example configuration file to your site root:
-    ```bash
-    cp -f themes/hugo-profile/exampleSite/hugo.yaml ./hugo.yaml
-    ```
+```bash
+cd portfolio
+python .github/pages_build.py --dependencies
+python .github/pages_build.py --build
+```
 
-4. Start the Hugo development server:
-    ```bash
-    hugo server
-    ```
-5. Recommended: Copy example content and assets.
-
-    When you first run `hugo server`, the site may look incomplete — images may be missing and the Blog or Gallery sections might not appear.  
-
-    This is because their content currently resides in `themes/hugo-profile/exampleSite/`, whereas Hugo expects them in the root-level `static/` (for images) and `content/` (for pages) directories.
-
-    To have a complete view of the example site, run:  
-
-    ```bash
-    rsync -av themes/hugo-profile/exampleSite/static/ ./static/
-    rsync -av themes/hugo-profile/exampleSite/content/ ./content/
-    ```
-
-    You can customize or replace this content to match your own site.
+빌드 결과는 `public/` 폴더에 생성됩니다. GitHub Actions에서는 동일한 스크립트로 빌드한 뒤 GitHub Pages에 배포합니다.
 
 
 ## Content Management
